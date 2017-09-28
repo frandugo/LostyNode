@@ -1,0 +1,16 @@
+extends layout.pug
+html(lang="en")
+	head
+		title Losty - Find something
+	body
+		h1 this is a example
+		p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores fugit ipsum delectus, dolore error ea et ut consequuntur culpa aperiam nostrum, quidem fuga. Possimus quia iure magni, veniam alias temporibus?
+		
+		if hint
+			p Si hint
+		else
+			p No hint
+
+		ul
+			each color in colors
+				p habla
